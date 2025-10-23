@@ -1768,23 +1768,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "SW2"
+				(at 1.2701 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+				(at -1.2699 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1867,7 +1869,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1885,7 +1887,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4526,10 +4528,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "ba71a82b-55f0-4c56-9b12-ebfedf128ecd")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "0eaea1e8-b89c-460c-99c7-d86a93bcd7b0")
 		)
 		(instances
@@ -4781,7 +4783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
+		(property "Footprint" "Diode_THT:Diode_Bridge_16.7x16.7x6.3mm_P10.8mm"
 			(at 102.87 99.06 0)
 			(effects
 				(font
