@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "0fac3de2-c2de-4637-a4a4-e730429d6798")
 	(paper "A4")
+	(title_block
+		(title "SCH Trabajo Final Integrador")
+		(date "2025-10-23")
+		(rev "1.0")
+		(company "Bolanho Alejo Eloy")
+		(comment 1 "416154")
+		(comment 2 "1R5")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -1908,23 +1916,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TR"
-				(at 0 6.35 0)
+			(property "Reference" "TR1"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TRANSF1"
-				(at 0 -6.35 0)
+			(property "Value" "35-40V 2A"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Transformer_THT:Transformer_Breve_TEZ-35x42"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2173,7 +2181,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3459,7 +3467,7 @@
 		(pin "4"
 			(uuid "2dd78177-8f14-469b-962b-aa43ed8504bb")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "d61c470f-4d98-446b-b7c9-fa6bc26fe082")
 		)
 		(instances
